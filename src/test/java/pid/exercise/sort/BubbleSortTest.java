@@ -50,7 +50,7 @@ public class BubbleSortTest {
         // Arrange
         int[] actual = {-44, 0, -2};
         int[] expected = actual.clone();
-        Arrays.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
+        BubbleSort.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
         // Act
         BubbleSort.sort(actual);
         // Assert
@@ -66,7 +66,7 @@ public class BubbleSortTest {
         // Arrange
         int[] actual = {-59, 27, 38, 2, 7, -84, 13, 84, -8, 3};
         int[] expected = actual.clone();
-        Arrays.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
+        BubbleSort.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
         // Act
         BubbleSort.sort(actual);
         // Assert

@@ -51,7 +51,7 @@ public class SelectionSortTest {
         // Arrange
         int[] actual = {1, -1};
         int[] expected = actual.clone();
-        Arrays.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
+        SelectionSort.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
         // Act
         SelectionSort.sort(actual);
         // Assert
@@ -67,7 +67,7 @@ public class SelectionSortTest {
         // Arrange
         int[] actual = {3, 0, -15, 343, 99, 23, 10, 54, 2, 2, 1};
         int[] expected = actual.clone();
-        Arrays.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
+        SelectionSort.sort(expected); // We expect Arrays.sort to be correct as it is a highly battle-tested implementation.
         // Act
         SelectionSort.sort(actual);
         // Assert
